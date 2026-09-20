@@ -14,7 +14,7 @@ public class ExcelFile {
 
 	public static void main(String[] args) throws Throwable {
 
-		File file = new File("");
+		File file = new File("File Name");
 		FileInputStream fileInput = new FileInputStream(file);
 		Workbook book = WorkbookFactory.create(fileInput);
 	
