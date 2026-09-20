@@ -14,7 +14,7 @@ public class ExcelFile {
 
 	public static void main(String[] args) throws Throwable {
 
-		File file = new File("C:\GitHub\Clone Project.pdf");
+		File file = new File("File Name");
 		FileInputStream fileInput = new FileInputStream(file);
 		Workbook book = WorkbookFactory.create(fileInput);
 	
