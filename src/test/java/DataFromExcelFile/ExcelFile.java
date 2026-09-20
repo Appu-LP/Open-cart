@@ -14,7 +14,7 @@ public class ExcelFile {
 
 	public static void main(String[] args) throws Throwable {
 
-		File file = new File("File Name");
+		File file = new File("file path from local or global");
 		FileInputStream fileInput = new FileInputStream(file);
 		Workbook book = WorkbookFactory.create(fileInput);
 	
