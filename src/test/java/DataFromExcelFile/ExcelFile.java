@@ -24,7 +24,7 @@ public class ExcelFile {
 		
 		DataFormatter data = new DataFormatter();
 		String c2 = data.formatCellValue(cell);
-		System.out.println(c2);
+		System.out.println(c2);//fetching data
 	}
 
 }
